@@ -11,6 +11,9 @@
         <figure v-else-if="condition == 'Sun'">
           <img src="../assets/sun.png" :alt="condition" />
         </figure>
+        <figure v-else-if="condition == 'Clear'">
+          <img src="../assets/sun.png" :alt="condition" />
+        </figure>
         <figure v-else-if="condition == 'Clouds'">
           <img src="../assets/cloudy.png" :alt="condition" />
         </figure>
